@@ -1,0 +1,45 @@
+body{
+  font-family: 'Chewy', cursive;
+  background-image: url(https://66.media.tumblr.com/f53db55380097b1932dfcdb40bd620c9/tumblr_inline_p7gavw4Sit1snh43y_540.png);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  text-align: center;
+}
+
+*{
+  padding: 10px;
+  margin:5px
+}
+
+.button{
+  background-color: #08a4cf;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 15px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+@media screen (max width: 750px){
+
+}
+
+
+.introduction {
+  font-size: 25px
+
+}
+
+#quote{
+  font-size: 30px
+}
+
+h1{
+  border: solid;
+  border-style: dashed;
+  border-color: #08a4cf;
+}
