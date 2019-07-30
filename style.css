@@ -4,7 +4,7 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-
+  justify-content: center;
   text-align: center;
 }
 
@@ -13,21 +13,17 @@ body{
   margin:5px
 }
 
-.button{
+.button {
   background-color: #08a4cf;
   border: none;
   border-radius: 10px;
   color: white;
-  padding: 15px ;
+  /* padding: 20px; */
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-
-@media screen (max width: 750px){
+  width: 100px;
 
 }
-
 
 .introduction {
   font-size: 25px
@@ -36,10 +32,4 @@ body{
 
 #quote{
   font-size: 30px
-}
-
-h1{
-  border: solid;
-  border-style: dashed;
-  border-color: #08a4cf;
 }
